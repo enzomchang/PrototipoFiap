@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Inter&family=Irish+Grover&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    font-size: 100%;
+    background-image: url('background2.svg');
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-color: black;
+    background-size: center;
+}
+
+.conteudo{
+    margin-bottom: 48px;     /* Dá um espaçamento maior pro botão*/
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;        /* Deixar tudo escrito em linhas horizontais*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 300px;
+    margin: 150px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;    /* Deixar tudo escrito em colunas */
+    gap: 0px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Irish Grover';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60.45px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30.26px;
+    color: #FFFFFF;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #ECD6C4;
+    width: 263px;
+    height: 48px;
+    left: 119px;
+    top: 506px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Girassol';
+    font-weight: 400;
+    font-size: 36px;
+    background: #2555BF;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214 ,196 ,0.53);     /* Fazer o botão ficar diferente quando passar o mouse em cima */
+}

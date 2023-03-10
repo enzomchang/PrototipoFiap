@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Girassol&family=Italiana&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url('matrix_2.svg');
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-color: black;
+    background-size: center;
+}
+
+.conteudo{
+    margin-bottom: 40px;     /* Dá um espaçamento maior pro botão*/
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;        /* Deixar tudo escrito em linhas horizontais*/
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;    /* Deixar tudo escrito em colunas */
+    gap: 32px;
+}
+
+.conteudo-principal-titulo{
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-top: 150px;
+    font-family: 'Benne';
+    font-weight: 50000;
+    font-size: 64px;
+    color: #051E57;
+}
+
+.conteudo-principal-subtitulo{
+    flex-wrap: wrap;
+    font-family: 'Italiana';
+    font-weight: 50000;
+    font-size: 25px;
+    color: #FFFF;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #ECD6C4;
+    width: 309px;
+    height: 55px;
+    left: 511px;
+    top: 629px;
+    background: rgba(48, 45, 200, 0.7);
+    border-radius: 50px;
+    font-family: 'Girassol';
+    font-weight: 400;
+    font-size: 40px;
+    color: 0;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214 ,196 ,0.53);     /* Fazer o botão ficar diferente quando passar o mouse em cima */
+}
+
+.conteudo-principal-imagem{
+    height: 334px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.rodape {
+    padding: 0px;
+    margin-left: 500px;
+}
+
+.rodape-imagem {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+.container{                     /*Display flex e align pra ficarem um ao lado do outro*/
+    display: flex;
+    align-items: center;
+}
