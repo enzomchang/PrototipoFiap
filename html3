@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type ="text/css" href="style3.css">
+</head>
+<body>
+
+
+<section id="secao-projetos">
+    <ul>
+        <li class="card">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGFja2VyJTIwZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
+            <div class="card-info">
+                <h3>CyberSecurity</h3>
+                <h4>Aprenda as principais brechas</h4>
+                <p>colocar alguma coisa</p>
+            </div>
+        </li>
+        <li class="card">
+            <div class="card-image"><img src="https://media.istockphoto.com/id/1316011368/pt/foto/hacker-with-laptop-in-city-security.jpg?b=1&s=170667a&w=0&k=20&c=aEkK6M6TZlSrnoqBIkg4kwvFtSKNgZFxrfRj1i9tMkw=" alt=""></div>
+            <div class="card-info">
+                <h3></h3>
+                <h4></h4>
+                <p></p>
+            </div>
+        </li>
+        <li class="card">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1525373698358-041e3a460346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt=""></div>
+            <div class="card-info">
+                <h3></h3>
+                <h4></h4>
+                <p></p>
+            </div>
+        </li>
+    </ul>
+</section>
+    
+</body>
+</html>
