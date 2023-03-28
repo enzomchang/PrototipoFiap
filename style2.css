@@ -75,6 +75,16 @@ body{
     margin-left: 100px;
 }
 
+.avatar{
+    border-radius: 100%;
+    padding-left: 1rem;
+    transition: .5s;
+}
+
+.avatar:hover{
+    transform: scale(1.1);
+}
+
 .rodape {
     padding: 0px;
     margin-left: 500px;
